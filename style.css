@@ -3,6 +3,7 @@ body {
 	padding: 1em 0;
 	font-family: "Work Sans", sans-serif;
 	background-color: #f5f5f5;
+
 }
 h1,
 h2,
@@ -47,13 +48,41 @@ p {
 	margin-top: 0.4em;
 }
 .main-menu-item {
-	padding: 50px 30px;
+	padding: 1.5em 2em 3.5em 2em;
 }
 .single-menu {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 2em;
+	padding-top: 1em;
 }
 .menu-img {
-	width: 100px;
+	width: 90px;
+}
+.menu-details h3 {
+	font-size: 1.25rem;
+	font-weight: 600;
+}
+.menu-details p {
+	color: #8b8b8b;
+	margin: 0.4em 0;
+}
+.menu-details span {
+	font-size: 1.2rem;
+}
+#add-basket {
+	background-color: #fff;
+	display: inline-block;
+	padding: .3em;
+	border-radius: 2em;
+	text-transform: capitalize;
+	cursor: pointer;
+	border: 1px solid #ddd;
+	font-size: 1.4rem;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
 }
